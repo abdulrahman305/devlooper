@@ -8,3 +8,6 @@ select = ['E', 'F', 'W', 'I']
 [tool.ruff.isort]
 combine-as-imports = true
 known-third-party = ["modal"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"

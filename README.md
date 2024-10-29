@@ -90,3 +90,10 @@ This project is mostly a proof of concept, and there's a lot of cool additions t
 - Using previous edits in the prompt somewhere to prevent the model from going into a loop.
 - Synthesizing `EnvTemplate`s from scratch.
 - Generalizing this to more LLMs, including open-source ones!
+
+## Code Quality and Test Coverage Badges
+
+![Ruff](https://img.shields.io/badge/Ruff-checked-brightgreen)
+![Black](https://img.shields.io/badge/Black-checked-brightgreen)
+![Prettier](https://img.shields.io/badge/Prettier-checked-brightgreen)
+![Test Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen)

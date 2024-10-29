@@ -76,6 +76,14 @@ modal run src.main --prompt="a webscraper that checks if there are new reservati
 
 Once all tests pass, the output will be written to `output/` in the same directory by default. This can be overridden using `--output-path`.
 
+### Update
+
+To update the generated code, you can use the update functionality. This will allow you to make changes to the existing code and rerun the tests to ensure everything is working correctly.
+
+```bash
+modal run src.main --prompt="update the existing code to add a new feature" --template="python"
+```
+
 ## ✨ Showcase
 
 _Coming soon_
